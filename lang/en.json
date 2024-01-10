@@ -1,0 +1,313 @@
+{
+  "links": {
+    "home": "Home",
+    "payment": "Payment",
+    "shipping": "Shipping",
+    "marketplace": "Marketplace",
+    "paper": "White Paper 2023",
+    "subscribe": "Subscribe",
+    "book-a-demo": "Book a meeting",
+    "get-a-quote": "Get a quote",
+    "getting-started": "Getting Started",
+    "email-us": "Get in Touch",
+    "careers": "Careers",
+    "terms": "Terms & Conditions",
+    "copyright": "All rights reserved",
+    "legal-notice": "Legal Notice"
+  },
+  "home": {
+    "hero": {
+      "title": "African business deserve to grow globally",
+      "paragraph": "ANKA is the all-in-one solution to sell from anywhere, ship worldwide and get paid faster on international or local African payment methods."
+    },
+    "about": {
+      "title": {
+        "part1": "Easily manage in one place your",
+        "part2": "sales, shipments and payments"
+      },
+      "services": {
+        "marketplace": {
+          "paragraph": "Open your store within 30 minutes and showcase your products to our 1 million customers monthly."
+        },
+        "shipping": {
+          "paragraph": "Ship from Africa to the world any package for less than 30$ with great partners like DHL !"
+        },
+        "pay": {
+          "paragraph": "Get paid and withdraw your funds in your preferred African or global payment: mobile money, VISA, SEPA, and more."
+        }
+      },
+      "stats": {
+        "s1": "shops in 46 african countries.",
+        "s2": "monthly website visits.",
+        "s3": "African e-commerce exporter with DHL.",
+        "s4": {
+          "number": "10 tons+",
+          "text": "monthly shipments from Africa."
+        },
+        "s5": "transactions in 175 countries."
+      }
+    },
+    "about-pay": {
+      "subtitle": "The African ‘PayPal’, but better",
+      "article": {
+        "p1": "Grab your cash fast! Receive and make payments all in one place, at any moment, from anywhere.",
+        "p2": "Create payment links to share with your customers over your social networks (WhatsApp, Instagram DMs, etc), blog/website, email.",
+        "p3": "Track payments and cash movements with transparent fees and total safety.",
+        "p4": "Pay works with Visa/Mastercard, Bank transfer, SEPA, Mobile Money (Orange, MTN, MPESA), and many more payment methods."
+      }
+    },
+    "about-shipping": {
+      "subtitle": "Ship cheaper from Africa to the World",
+      "article": {
+        "paragraph": "With integrated customs management and dedicated Customer support, you can ship from Africa to the World fast, at the best rates possible and with trust & safety. Save time, effort and costs thanks to our solutions !",
+        "ul": {
+          "li1": "Create your shipping labels in less than 1 min.",
+          "li2": "Enjoy preferential rates from Africa.",
+          "li3": "Integrated tracking and insurance."
+        }
+      }
+    },
+    "about-marketplace": {
+      "subtitle": "The #1 \"Made of Africa\" platform",
+      "article": {
+        "paragraph": "Join our community of sellers and reach a global audience of engaged buyers. With our user-friendly interface, secure payments and shipping partners, selling from Africa has never been easier.",
+        "ul": {
+          "li1": "1 Million monthly visitors and 1M+ followers on social media.",
+          "li2": "Create your shop in 30 minutes.",
+          "li3": "Easy back-end for order management, product creation and integrated messaging."
+        }
+      }
+    },
+    "testimonials": {
+      "title": "They use ANKA and they love it !",
+      "messsages": {
+        "m1": "The services I like the most on ANKA are shipping, and direct payment.",
+        "m2": "To send a simple link to someone outside the platform so they pay you is amazing !",
+        "m3": "ANKA pay is advantageous when you have customised orders."
+      }
+    },
+    "learn-more": "Learn more"
+  },
+  "payment": {
+    "title": "PayPal doesn’t let you withdraw money in Africa. We do.",
+    "hero": {
+      "title": "The African ‘Paypal’, but better.",
+      "article": {
+        "p1": "ANKA PAY is your easy, centralized solution to handle payments in Africa. Get paid, store, transfer and use your money at any moment, from anywhere, with transparent fees and total safety.",
+        "p2": "Our top feature: create payment links for your customers and send them wherever you need: WhatsApp, Instagram DMs, etc. Track payments and cash movements all in one place. Save time, effort and costs with ANKA PAY !"
+      }
+    },
+    "how-to": {
+      "title": "How does it work ?",
+      "ul": {
+        "li1": "Payments and transfer from / to Africa, in all local currencies.",
+        "li2": "Payment links created in 20 seconds, customizable for all your customers.",
+        "li3": "Get paid by Card, PayPal, Mobile Money. Transfer at will wherever you need.",
+        "li4": "Instant withdraw and payments with our VISA ANKA Card. Order now and get it in 15 days !"
+      },
+      "stats": {
+        "s1": "payment links generated.",
+        "s2": "of transactions volume from Africa to the world, and back.",
+        "s3": "payment providers centralized: Paypal, Opay, M-Pesa, ...",
+        "s4": "countries with active ANKA Pay users. Join the tribe !"
+      },
+      "testimonials": {
+        "title": "They use ANKA PAY and they love it!",
+        "messsages": {
+          "m1": "The biggest thing I benefit from ANKA is Direct Payment. I get clients from all over the world.",
+          "m2": "People still have trust issues when it comes to payments in Africa. ANKA solves this by being 100% secure.",
+          "m3": "To send a simple link to someone outside the platform so they pay you is amazing !"
+        }
+      }
+    }
+  },
+  "shipping": {
+    "title": "Ship cheaper with DHL, from Africa to the World.",
+    "hero": {
+      "title": "The best way to ship from Africa.",
+      "article": {
+        "p1": "ANKA SHIPPING is your all-in-one solution for shipments from and to Africa. Our built-in service guarantees the lowest fare on the Continent and a smooth experience for you and your customers.",
+        "p2": " With integrated customs management and dedicated Customer Support, you can finally ship from Africa fast, at the best rates possible and with trust & safety. Save time, effort and costs with ANKA SHIPPING !"
+      }
+    },
+    "how-to": {
+      "title": "How to ship with ANKA shipping ?",
+      "ul": {
+        "li1": "We are the #1 e-commerce exporter with DHL in Africa. Ship from / to anywhere with our solution, fast and safe.",
+        "li2": "Label creation from the app in 1 minute. Cheapest prices in Africa guaranteed.",
+        "li3": "Schedule pick-up of your parcel so you don’t have to move (where available).",
+        "li4": "Print your waybill in 2 clicks. All-in-one Customs management. Ship, track and relax !",
+        "li5": "You can use it for any shipping needs that you have even if the transaction didn't happen through us."
+      },
+      "stats": {
+        "s1": "labels generated on ANKA SHIPPING.",
+        "s2": "tons of goods exported from Africa to the World since 2019.",
+        "s3": "countries of origin or destination.",
+        "s4": "days average reception time after parcel pick-up to drop-off."
+      }
+    },
+    "testimonials": {
+      "title": "They use ANKA SHIPPING and they love it !",
+      "messsages": {
+        "m1": "Shipping is THE service I was drawn to, because of how affordable the prices are.",
+        "m2": "I really appreciate the fact that we are able to negotiate collectively with DHL to get a lower price.",
+        "m3": "It's just so much easier to be able to get shipping prices from there."
+      }
+    }
+  },
+  "marketplace": {
+    "title": "Get your own online store, sell African products on Afrikrea.",
+    "hero": {
+      "title": "The largest \"Made of Africa\" Marketplace.",
+      "article": {
+        "p1": "Discover the vibrant world of African-inspired products at our marketplace! From handmade crafts to unique fashion pieces, our platform connects buyers and sellers from all over Africa.",
+        "p2": "Join our community and be part of the movement to support local businesses and artisans. With our user-friendly interface and secure payment system, shopping has never been easier."
+      }
+    },
+    "how-to": {
+      "title": "How does it work ?",
+      "ul": {
+        "li1": "Create your own store with a custom domain name and have it linked to your social media and marketplace channels.",
+        "li2": "Put all your product pictures and information on your store to make them visible to the +1 million visitors of the Afrikrea marketplace.",
+        "li3": "Manage your orders and ship them with ANKA shipping service at the cheapest rates.",
+        "li4": "Withdraw your money from the store to your preferred local payment methods."
+      },
+      "stats": {
+        "s1": "products sold.",
+        "s2": "existing shops.",
+        "s3": "revenue generated.",
+        "s4": "countries served."
+      }
+    },
+    "testimonials": {
+      "title": " They are Afrikrea’s sellers and they love it!",
+      "messsages": {
+        "m1": "ANKA allowed me to start selling online, something I did not do before !",
+        "m2": "With Afrikrea, ANKA built a complete system that allow me to have my brand online while handling my activity here.",
+        "m3": "Afrikrea and ANKA allowed True Fond to penetrate the European market."
+      }
+    }
+  },
+  "paper": {
+    "hero": {
+      "title": "Global African Commerce",
+      "subtitle": "White Paper Report 2023",
+      "article": {
+        "p1": "With data spanning 7 years, $50 million of transactions in 175 countries and thousands of interviews led across Africa and the rest of globe, we at ANKA have developed unique knowledge and expertise to produce this report.",
+        "p2": "It is rich, detailed and insightful for any aspiring entrepreneur, analyst or curious soul who wishes to learn more about the complex ropes of African e-commerce at the global scale. A must-read for all those who, like us, want to see the Continent grow with power and wealth by spreading its reaches to the world."
+      }
+    },
+    "report": {
+      "title": "Excerpts from the report",
+      "selling-section": {
+        "title": "Selling",
+        "quote": "Visibility is not the key of success, constant and regular improvements is."
+      },
+      "buying-section": {
+        "title": "Buying",
+        "quote": "30% of them are from the African Diaspora, 40% are of African-American or Caribbean origin and 30% are neither Black nor African, who either have an African relative or a particular affection for African culture without having any particular link with the continent."
+      },
+      "glossary": {
+        "title": "Glossary",
+        "selling": "Selling",
+        "about_us": "About us",
+        "characteristics": "Characteristics & Distribution",
+        "funding": "Funding and Myths",
+        "success": "Sales and keys to e-commerce 'success'",
+        "how-to-sell": "How and where to sell ?",
+        "buying": "Buying",
+        "purchasing-behaviour": "Purchasing behaviour",
+        "customer-acquisition": "Status of customer acquisition via different channels",
+        "products-services": "Products & Services",
+        "products-distribution": "Distribution of products & bestsellers",
+        "plagiarism": "Plagiarism",
+        "ecommerce-impact": "Impact of e-commerce",
+        "shipping": "Shipping",
+        "payment-methods": "Methods of payment"
+      }
+    }
+  },
+  "forms": {
+    "required": "Required.",
+    "invalid-email": "Invalid email address.",
+    "invalid-phone": "Invalid phone number."
+  },
+  "calculator": {
+    "title": "Best shipping prices",
+    "ship-from": "Ship from",
+    "ship-to": "Ship to",
+    "weight": "Package weight",
+    "placeholder-country": "Select country",
+    "placeholder-weight": "Select weight",
+    "search": "Search...",
+    "no-result": "No result",
+    "submit": "Check Rates"
+  },
+  "months": {
+    "january": "January",
+    "february": "February",
+    "march": "March",
+    "april": "April",
+    "may": "May",
+    "june": "June",
+    "july": "July",
+    "august": "August",
+    "september": "September",
+    "october": "October",
+    "november": "November",
+    "december": "December"
+  },
+  "subscribe": {
+    "formula": {
+      "title": "Choose a formula",
+      "msg": "No commitments, cancel anytime !",
+      "plans": {
+        "quaterly": "Quaterly",
+        "bi-annually": "Bi-annually",
+        "annually": "Annually"
+      },
+      "words": {
+        "instead": "Instead of",
+        "months-free": "1 month free | {count} months free"
+      },
+      "article": {
+        "ul": {
+          "li1": "Unlimited products",
+          "li2": "Order management",
+          "li3": "Afrikrea VISA card",
+          "li4": "Shipping with DHL",
+          "li5": "Anka Pay, payment links on social media",
+          "li6": "Personal website"
+        }
+      }
+    },
+    "payments": {
+      "title": "Payment Methods",
+      "options": {
+        "ng-bank": "₦aira bank account - NG Bank Transfer"
+      }
+    },
+    "summary": {
+      "title": "Transaction Summary",
+      "plan": "Subscription Plan"
+    },
+    "form": {
+      "referral-code": "Referral code",
+      "name-on-card": "Name on card",
+      "card-number": "Card number",
+      "expires": "Expires",
+      "month": "Month",
+      "year": "Year",
+      "phone-number": "Phone number",
+      "orange-hint": "Available in Ivory Coast, Senegal and Cameroon.",
+      "mpesa-hint": "Subscription will be activated upon payment validation.",
+      "mpesa-phone-number": "MPESA phone number",
+      "mtn-hint": "Available in Ivory Coast, Cameroon and Ghana.",
+      "submit": "Subscribe"
+    },
+    "terms": {
+      "part1": "By processing, I accept",
+      "part2": "term of services"
+    }
+  }
+}

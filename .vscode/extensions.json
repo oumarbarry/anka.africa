@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "Vue.volar",
+    "lokalise.i18n-ally",
+    "antfu.file-nesting",
+    "dbaeumer.vscode-eslint",
+    "EditorConfig.EditorConfig",
+    "bradlc.vscode-tailwindcss"
+  ]
+}
