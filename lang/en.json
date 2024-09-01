@@ -156,7 +156,8 @@
     }
   },
   "marketplace": {
-    "title": "Get your own online store, sell African products on Afrikrea.",
+    "goto": "Visit the marketplace",
+    "title": "Get your own online store, sell African products on ANKA Marketplace.",
     "hero": {
       "title": "The largest \"Made of Africa\" Marketplace.",
       "article": {
@@ -168,7 +169,7 @@
       "title": "How does it work ?",
       "ul": {
         "li1": "Create your own store with a custom domain name and have it linked to your social media and marketplace channels.",
-        "li2": "Put all your product pictures and information on your store to make them visible to the +1 million visitors of the Afrikrea marketplace.",
+        "li2": "Put all your product pictures and information on your store to make them visible to the +1 million visitors of the ANKA marketplace.",
         "li3": "Manage your orders and ship them with ANKA shipping service at the cheapest rates.",
         "li4": "Withdraw your money from the store to your preferred local payment methods."
       },
@@ -180,11 +181,11 @@
       }
     },
     "testimonials": {
-      "title": " They are Afrikrea’s sellers and they love it!",
+      "title": " They are ANKA’s sellers and they love it!",
       "messsages": {
         "m1": "ANKA allowed me to start selling online, something I did not do before !",
-        "m2": "With Afrikrea, ANKA built a complete system that allow me to have my brand online while handling my activity here.",
-        "m3": "Afrikrea and ANKA allowed True Fond to penetrate the European market."
+        "m2": "With ANKA Marketplace, ANKA built a complete system that allow me to have my brand online while handling my activity here.",
+        "m3": "ANKA allowed True Fond to penetrate the European market."
       }
     }
   },
@@ -274,7 +275,7 @@
         "ul": {
           "li1": "Unlimited products",
           "li2": "Order management",
-          "li3": "Afrikrea VISA card",
+          "li3": "ANKA VISA card",
           "li4": "Shipping with DHL",
           "li5": "Anka Pay, payment links on social media",
           "li6": "Personal website"

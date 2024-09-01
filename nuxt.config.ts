@@ -1,11 +1,8 @@
 export default defineNuxtConfig({
-  devtools: { enabled: true },
-  typescript: { shim: false },
+  future: { compatibilityVersion: 4 },
+  compatibilityDate: "2024-08-30",
 
-  // app: {
-  //   pageTransition: false,
-  //   layoutTransition: false,
-  // },
+  devtools: { enabled: true },
 
   experimental: {
     typedPages: true,
@@ -14,15 +11,17 @@ export default defineNuxtConfig({
 
   modules: [
     "@nuxt/ui",
-    "@vueuse/nuxt",
+    "@nuxt/eslint",
     "@nuxtjs/i18n",
     "nuxt-calendly",
     "radix-vue/nuxt",
-    "@nuxtjs/google-fonts",
-    "@nuxtjs/fontaine",
     "nuxt-3-intercom",
-    "nuxt-clarity-analytics",
+    "@nuxtjs/fontaine",
+    "@nuxtjs/google-fonts",
+    "@nuxt/scripts",
   ],
+
+  eslint: { config: { standalone: false } },
 
   tailwindcss: { viewer: false },
   colorMode: { preference: "light" },
@@ -31,14 +30,6 @@ export default defineNuxtConfig({
     families: {
       "Open Sans": "300..800",
     },
-  },
-
-  intercom: {
-    appId: "wgsah0jl",
-    action_color: "#e21ddb",
-    background_color: "#e21ddb",
-    scriptDefer: true,
-    updateOnPageRoute: false,
   },
 
   i18n: {
@@ -52,7 +43,21 @@ export default defineNuxtConfig({
     ],
   },
 
-  // routeRules: {
-  //   "/subscribe": { ssr: false },
-  // },
+  intercom: {
+    appId: "wgsah0jl",
+    action_color: "#e21ddb",
+    background_color: "#e21ddb",
+    scriptDefer: true,
+    updateOnPageRoute: false,
+  },
+
+  $production: {
+    scripts: {
+      registry: {
+        clarity: {
+          id: "kjk2bt2wnl",
+        },
+      },
+    },
+  },
 })

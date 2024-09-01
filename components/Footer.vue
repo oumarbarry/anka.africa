@@ -41,13 +41,15 @@ const currentLocale = computed(() => locale.value)
         <NuxtLinkLocale to="/book-a-demo" class="text-gray-700 hover:text-primary">
           {{ t('links.book-a-demo') }}
         </NuxtLinkLocale>
+
         <NuxtLink
-          to="mailto:help@anka.africa"
+          to="https://wa.me/33749947976"
           external
           class="text-gray-700 hover:text-primary"
         >
           {{ t('links.email-us') }}
         </NuxtLink>
+
         <NuxtLink
           to="https://anka.breezy.hr"
           target="_blank"
@@ -56,9 +58,15 @@ const currentLocale = computed(() => locale.value)
         >
           {{ t('links.careers') }}
         </NuxtLink>
-        <NuxtLinkLocale to="/paper" class="text-primary">
-          {{ t('links.paper') }}
-        </NuxtLinkLocale>
+
+        <NuxtLink
+          :to="`https://support.anka.africa/${currentLocale}/collections/4300-popular-questions`"
+          target="_blank"
+          external
+          class="text-gray-700 hover:text-primary"
+        >
+          FAQ
+        </NuxtLink>
       </div>
     </div>
 
@@ -82,7 +90,7 @@ const currentLocale = computed(() => locale.value)
 
       <div class="flex flex-col lg:flex-row gap-x-5 gap-y-3">
         <NuxtLink
-          to="https://www.afrikrea.com/en/pages/legal"
+          :to="`https://www.anka.africa/${currentLocale}/pages/legal`"
           target="_blank"
           external
           class="text-gray-700 hover:text-primary"
@@ -90,7 +98,7 @@ const currentLocale = computed(() => locale.value)
           {{ t('links.legal-notice') }}
         </NuxtLink>
         <NuxtLink
-          to="https://www.afrikrea.com/en/pages/terms"
+          :to="`https://www.anka.africa/${currentLocale}/pages/terms`"
           target="_blank"
           external
           class="text-gray-700 hover:text-primary"

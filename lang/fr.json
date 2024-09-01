@@ -156,6 +156,7 @@
     }
   },
   "marketplace": {
+    "goto": "Visiter la marketplace",
     "title": "Créez votre propre boutique en ligne et vendez vos produits africains dans le monde.",
     "hero": {
       "title": "La plus grande place de marché pour les produits africains.",
@@ -183,8 +184,8 @@
       "title": "Ils étaient comme vous, ils sont aujourd’hui nos fans !",
       "messsages": {
         "m1": "ANKA m'a permis de vendre en ligne, chose que je ne faisais pas avant !",
-        "m2": "ANKA a construit avec Afrikrea un système complet qui me permet d'avoir ma marque en ligne tout en gérant mon activité ici.",
-        "m3": "Afrikrea et ANKA ont permis à True Fond de pénétrer le marché Européen."
+        "m2": "ANKA a construit avec ANKA Marketplace un système complet qui me permet d'avoir ma marque en ligne tout en gérant mon activité ici.",
+        "m3": "ANKA ont permis à True Fond de pénétrer le marché Européen."
       }
     }
   },
@@ -276,7 +277,7 @@
         "ul": {
           "li1": "Ajout de produit illimité",
           "li2": "Gestion des commandes",
-          "li3": "Carte VISA Afrikrea",
+          "li3": "Carte VISA ANKA",
           "li4": "Expédition avec DHL",
           "li5": "Paiement direct sur les médias sociaux",
           "li6": "Site web personnel"

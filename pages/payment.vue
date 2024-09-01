@@ -14,7 +14,7 @@ const localePath = useLocalePath()
 
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-x-14 gap-y-7">
         <img
-          src="https://www.anka.africa/assets/landing/anka-payment-pay-by-link-b41d70940b47b2477baadb524ab1b3013ab75134148952e4829e771d506f0faf.svg"
+          src="~/assets/img/payment/payment.svg"
           class="w-full h-auto object-cover"
         >
 
@@ -82,7 +82,7 @@ const localePath = useLocalePath()
         <div class="pt-5 grid grid-cols-1 lg:grid-cols-4 gap-x-12 gap-y-14">
           <div class="flex flex-col items-center lg:gap-y-3">
             <img
-              src="https://www.anka.africa/assets/landing/anka-payment-links-54464a42c08da1fb402645df647ccd1588a412f1a0fcd2cdce2eafbd2ab45a76.svg"
+              src="~/assets/img/payment/s1.svg"
               class="max-w-full h-[210px]"
             >
             <p class="font-bold text-[2rem]">
@@ -94,7 +94,7 @@ const localePath = useLocalePath()
           </div>
           <div class="flex flex-col items-center lg:gap-y-3">
             <img
-              src="https://www.anka.africa/assets/landing/anka-payment-transactions-7797b106a4564940ae0248ad8e1dc24395d54e927f906a4c531a6d5fcf0a349a.svg"
+              src="~/assets/img/payment/s2.svg"
               class="max-w-full h-[210px]"
             >
             <p class="font-bold text-[2rem]">
@@ -106,7 +106,7 @@ const localePath = useLocalePath()
           </div>
           <div class="flex flex-col items-center lg:gap-y-3">
             <img
-              src="https://www.anka.africa/assets/landing/anka-payment-providers-be0cada60dfc0a6cb01d8a44547e01d6cc68a4736f206573b4b24cb1a5ef88a5.svg"
+              src="~/assets/img/payment/s3.svg"
               class="max-w-full h-[210px]"
             >
             <p class="font-bold text-[2rem]">
@@ -118,7 +118,7 @@ const localePath = useLocalePath()
           </div>
           <div class="flex flex-col items-center lg:gap-y-3">
             <img
-              src="https://www.anka.africa/assets/landing/anka-payment-africa-faa05f0d15386abdd076f2d12b246d46065155c94c923f419390a685f1302bea.svg"
+              src="~/assets/img/payment/s4.svg"
               class="max-w-full h-[210px]"
             >
             <p class="font-bold text-[2rem]">

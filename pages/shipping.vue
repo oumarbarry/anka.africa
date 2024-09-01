@@ -14,7 +14,7 @@ const localePath = useLocalePath()
 
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-x-14 gap-y-7">
         <img
-          src="https://www.anka.africa/assets/landing/anka-shipping-airplane-764bc77ecd0f0ea5d4bf6f4143450d752b77e0406a67666790d52019fddeda83.svg"
+          src="~/assets/img/shipping/shipping.svg"
           class="w-full h-auto object-cover"
         >
 
@@ -86,7 +86,8 @@ const localePath = useLocalePath()
         <div class="pt-5 grid grid-cols-1 lg:grid-cols-4 gap-x-12 gap-y-14">
           <div class="flex flex-col items-center lg:gap-y-3">
             <img
-              src="https://www.anka.africa/assets/landing/anka-shipping-label-160b8e0a4c8a7a13492782d1df7e715821384951d0bb4cdfa5694763a38f1875.svg"
+
+              src="~/assets/img/shipping/s5.svg"
               class="max-w-full h-[210px]"
             >
             <p class="font-bold text-[2rem]">
@@ -98,7 +99,7 @@ const localePath = useLocalePath()
           </div>
           <div class="flex flex-col items-center lg:gap-y-3">
             <img
-              src="https://www.anka.africa/assets/landing/anka-shipping-tons-81ec26735184f7e0ef75356353911e3a9fe8b5db89c8c8437bd10ee27cb93887.svg"
+              src="~/assets/img/shipping/s6.svg"
               class="max-w-full h-[210px]"
             >
             <p class="font-bold text-[2rem]">
@@ -110,7 +111,7 @@ const localePath = useLocalePath()
           </div>
           <div class="flex flex-col items-center lg:gap-y-3">
             <img
-              src="https://www.anka.africa/assets/landing/anka-shipping-countries-547309a29c7d55c7dc6a0b5f7b68b2f5508deb53cdc551321d090d902812a54b.svg"
+              src="~/assets/img/shipping/s7.svg"
               class="max-w-full h-[210px]"
             >
             <p class="font-bold text-[2rem]">
@@ -122,7 +123,7 @@ const localePath = useLocalePath()
           </div>
           <div class="flex flex-col items-center lg:gap-y-3">
             <img
-              src="https://www.anka.africa/assets/landing/anka-shipping-days-55ca30e41528671cb3c8810ef4081a8e3075f34f18619584a04db37b0a67302f.svg"
+              src="~/assets/img/shipping/s8.svg"
               class="max-w-full h-[210px]"
             >
             <p class="font-bold text-[2rem]">

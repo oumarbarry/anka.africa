@@ -1,12 +1,14 @@
 <script setup lang="ts">
 import { z } from "zod"
-import { vMaska } from "maska"
+import { vMaska } from "maska/vue"
 import { isValidPhoneNumber } from "libphonenumber-js"
 import type { FormSubmitEvent } from "#ui/types"
 
 useHead({ title: "Subscribe" })
 
-const { t } = useI18n()
+const { t, locale } = useI18n()
+
+const currentLocale = computed(() => locale.value)
 
 const loading = ref(false)
 
@@ -27,9 +29,9 @@ const AVAILABLE_COUNTRIES = {
 }
 
 const selectedCode = reactive({
-  orange: AVAILABLE_COUNTRIES.orange[0],
-  mpesa: AVAILABLE_COUNTRIES.mpesa[0],
-  mtn: AVAILABLE_COUNTRIES.mtn[0],
+  orange: AVAILABLE_COUNTRIES.orange[0]!,
+  mpesa: AVAILABLE_COUNTRIES.mpesa[0]!,
+  mtn: AVAILABLE_COUNTRIES.mtn[0]!,
 })
 
 const MAPPING = {
@@ -273,7 +275,7 @@ async function subscribe(event: FormSubmitEvent<z.output<typeof schema.value>>) 
               class="flex items-center rounded-md border-2 border-muted bg-popover p-4 hover:bg-accent hover:text-accent-foreground peer-data-[state=checked]:border-primary peer-data-[state=checked]:bg-[#FEF8FE] [&:has([data-state=checked])]:border-primary [&:has([data-state=checked])]:bg-[#FEF8FE]"
             >
               <img
-                src="https://www.afrikrea.com/assets/anka/card_visa-eac2ec6295d7d77495000056e45856a808d1583ea51ef31acfac3936d2b31bbb.png"
+                src="~/assets/img/subscribe/card.png"
                 alt="Card"
                 class="h-6"
               >
@@ -290,7 +292,7 @@ async function subscribe(event: FormSubmitEvent<z.output<typeof schema.value>>) 
               class="flex items-center justify-between rounded-md border-2 border-muted bg-popover p-4 hover:bg-accent hover:text-accent-foreground peer-data-[state=checked]:border-primary peer-data-[state=checked]:bg-[#FEF8FE] [&:has([data-state=checked])]:border-primary [&:has([data-state=checked])]:bg-[#FEF8FE]"
             >
               <img
-                src="https://www.afrikrea.com/assets/anka/so_paypal-e8d11831505fd0f4d63e3c2a44e123e2eb29a3942a70e24eff2b9c082123f422.png"
+                src="~/assets/img/subscribe/paypal.png"
                 alt="Paypal"
                 class="h-6"
               >
@@ -308,7 +310,7 @@ async function subscribe(event: FormSubmitEvent<z.output<typeof schema.value>>) 
               class="flex items-center rounded-md border-2 border-muted bg-popover p-4 hover:bg-accent hover:text-accent-foreground peer-data-[state=checked]:border-primary peer-data-[state=checked]:bg-[#FEF8FE] [&:has([data-state=checked])]:border-primary [&:has([data-state=checked])]:bg-[#FEF8FE]"
             >
               <img
-                src="https://www.afrikrea.com/assets/anka/so_orange_money-b1cc5f56f4d5f080af299549e6554c180fca2c6e764168b3d5bc55c384af24e1.png"
+                src="~/assets/img/subscribe/orange.png"
                 alt="Orange Money"
                 class="h-6"
               >
@@ -325,7 +327,7 @@ async function subscribe(event: FormSubmitEvent<z.output<typeof schema.value>>) 
               class="flex items-center justify-between rounded-md border-2 border-muted bg-popover p-4 hover:bg-accent hover:text-accent-foreground peer-data-[state=checked]:border-primary peer-data-[state=checked]:bg-[#FEF8FE] [&:has([data-state=checked])]:border-primary [&:has([data-state=checked])]:bg-[#FEF8FE]"
             >
               <img
-                src="https://www.afrikrea.com/assets/anka/so_mpesa-a77026f770188b9977533aa3d592211d527cb0bfb8c07306f172013208e817e3.png"
+                src="~/assets/img/subscribe/mpesa.png"
                 alt="M-Pesa"
                 class="h-6"
               >
@@ -343,7 +345,7 @@ async function subscribe(event: FormSubmitEvent<z.output<typeof schema.value>>) 
               class="flex items-center gap-x-3 rounded-md border-2 border-muted bg-popover p-4 hover:bg-accent hover:text-accent-foreground peer-data-[state=checked]:border-primary peer-data-[state=checked]:bg-[#FEF8FE] [&:has([data-state=checked])]:border-primary [&:has([data-state=checked])]:bg-[#FEF8FE]"
             >
               <img
-                src="https://www.afrikrea.com/assets/wallet/mtn-2e12a7edfd966fe4d089ec063c2bbbb2d70989fbfd8ef2438ac32f640049a99d.png"
+                src="~/assets/img/subscribe/mtn.png"
                 alt="MTN"
                 class="h-6"
               >
@@ -361,7 +363,7 @@ async function subscribe(event: FormSubmitEvent<z.output<typeof schema.value>>) 
               class="flex items-center gap-x-3 rounded-md border-2 border-muted bg-popover p-4 hover:bg-accent hover:text-accent-foreground peer-data-[state=checked]:border-primary peer-data-[state=checked]:bg-[#FEF8FE] [&:has([data-state=checked])]:border-primary [&:has([data-state=checked])]:bg-[#FEF8FE]"
             >
               <img
-                src="https://www.afrikrea.com/assets/wallet/opay-d6c422ea7fdcdffa0a64e2ca0f60db5dc50cb86833e31bdb1191a14573d9e23e.png"
+                src="~/assets/img/subscribe/opay.png"
                 alt="Opay"
                 class="h-6"
               >
@@ -379,7 +381,7 @@ async function subscribe(event: FormSubmitEvent<z.output<typeof schema.value>>) 
               class="flex items-center gap-x-3 rounded-md border-2 border-muted bg-popover p-4 hover:bg-accent hover:text-accent-foreground peer-data-[state=checked]:border-primary peer-data-[state=checked]:bg-[#FEF8FE] [&:has([data-state=checked])]:border-primary [&:has([data-state=checked])]:bg-[#FEF8FE]"
             >
               <img
-                src="https://www.afrikrea.com/assets/wallet/mtn-2e12a7edfd966fe4d089ec063c2bbbb2d70989fbfd8ef2438ac32f640049a99d.png"
+                src="~/assets/img/subscribe/mtn.png"
                 alt="MTN Ghana"
                 class="h-6"
               >
@@ -533,7 +535,7 @@ async function subscribe(event: FormSubmitEvent<z.output<typeof schema.value>>) 
 
             <p class="text-center text-sm">
               {{ t('subscribe.terms.part1') }}
-              <NuxtLink to="https://www.afrikrea.com/en/pages/terms" class="text-primary">
+              <NuxtLink :to="`https://www.anka.africa/${currentLocale}/pages/terms`" class="text-primary">
                 {{ t('subscribe.terms.part2') }}
               </NuxtLink>
             </p>

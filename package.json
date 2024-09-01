@@ -5,36 +5,34 @@
   "scripts": {
     "dev": "nuxt dev",
     "build": "nuxt build",
-    "generate": "nuxt generate",
     "preview": "nuxt preview",
+    "generate": "nuxt generate",
     "postinstall": "nuxt prepare",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
   },
   "dependencies": {
+    "@nuxt/scripts": "^0.7.1",
     "@nuxt/ui": "^2.12.0",
-    "libphonenumber-js": "^1.10.53",
-    "maska": "^2.1.10",
-    "radix-vue": "^1.3.0",
-    "vue-lite-youtube-embed": "^1.2.1",
-    "zod": "^3.22.4"
+    "libphonenumber-js": "^1.11.7",
+    "maska": "^3.0.2",
+    "nuxt": "^3.13.0",
+    "radix-vue": "^1.9.5",
+    "vue": "^3.4.38",
+    "vue-lite-youtube-embed": "^1.2.4",
+    "vue-router": "^4.4.3",
+    "zod": "^3.23.8"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^2.6.2",
-    "@nuxt/devtools": "^1.0.6",
-    "@nuxtjs/fontaine": "^0.4.1",
-    "@nuxtjs/google-fonts": "^3.1.3",
-    "@nuxtjs/i18n": "^8.0.0",
-    "@types/node": "^18.19.6",
-    "@unocss/nuxt": "^0.58.3",
-    "@vueuse/nuxt": "^10.7.1",
-    "eslint": "^8.56.0",
-    "nuxt": "^3.9.1",
+    "@antfu/eslint-config": "^3.0.0",
+    "@nuxt/eslint": "^0.5.4",
+    "@nuxtjs/fontaine": "^0.4.3",
+    "@nuxtjs/google-fonts": "^3.2.0",
+    "@nuxtjs/i18n": "^8.5.1",
+    "@types/node": "^20.16.2",
+    "eslint": "^9.9.1",
     "nuxt-3-intercom": "^1.1.2",
-    "nuxt-calendly": "^0.1.17",
-    "nuxt-clarity-analytics": "^0.0.6",
-    "typescript": "^5.3.3",
-    "vue": "^3.4.7",
-    "vue-router": "latest"
+    "nuxt-calendly": "^0.1.21",
+    "typescript": "^5.5.4"
   }
 }

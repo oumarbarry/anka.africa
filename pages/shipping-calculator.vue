@@ -117,9 +117,9 @@ const WEIGHTS = Array.from({ length: 200 }, (_, index) => ({
     <span class="block lg:hidden pt-24" />
 
     <img
-      src="https://www.afrikrea.com/assets/anka/shipping_calc_bg-34dc183767b74af258e72f0fa2c207d902e108f3bee06ceed2ce9ce28e561942.png"
+      src="~/assets/img/shipping.png"
       alt="Shipping calc bg"
-      class="hidden lg:block object-cover"
+      class="hidden lg:block object-cover w-full"
     >
   </main>
 </template>

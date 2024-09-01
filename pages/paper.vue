@@ -80,8 +80,7 @@ async function download(event: FormSubmitEvent<z.output<typeof schema>>) {
         <div class="lg:col-span-3 order-first lg:order-last">
           <img
             class="w-full h-full object-contain lg:object-none"
-            src="https://www.anka.africa/assets/landing/white_paper/happy_customers_hero_grid-215387610c648bf306595bf6cd9bfab169084c127d88b99d8c7cc71d51dd679f.png"
-            alt="africa, ANKA, afrikrea, shipping, sell, money transfer"
+            src="~/assets/img/paper/paper1.png"
           >
         </div>
       </div>
@@ -91,12 +90,11 @@ async function download(event: FormSubmitEvent<z.output<typeof schema>>) {
       {{ t('paper.report.title') }}
     </h2>
 
-    <section class="grid grid-cols-1 lg:grid-cols-2 gap-x-16 gap-y-6 lg:h-[70vh] py-10">
-      <div class="inline-grid">
+    <section class="grid grid-cols-1 lg:grid-cols-2 gap-x-16 gap-y-6 lg:h-[45vh] py-3">
+      <div class="flex justify-center items-center">
         <img
-          class="w-full h-full"
-          src="https://www.anka.africa/assets/landing/white_paper/selling-en-b97f5186979f1adbd030bb9b4820cd23f7ae9f40bc55d2c5ab5553e6a4ad343a.png"
-          alt="africa, ANKA, afrikrea, shipping, sell, money transfer"
+          class="w-full"
+          src="~/assets/img/paper/paper2.png"
         >
       </div>
 
@@ -126,8 +124,7 @@ async function download(event: FormSubmitEvent<z.output<typeof schema>>) {
       <div class="inline-grid order-first lg:order-last">
         <img
           class="w-full lg:h-[500px] object-contain"
-          src="https://www.anka.africa/assets/landing/white_paper/avg_basket_per_country-en-ca26024c65a0196300580a44e8b3c67d44253bb8a73b2aaa6558085f9b58caa5.png"
-          alt="africa, ANKA, afrikrea, shipping, sell, money transfer"
+          src="~/assets/img/paper/paper3.png"
         >
       </div>
     </section>
@@ -136,8 +133,7 @@ async function download(event: FormSubmitEvent<z.output<typeof schema>>) {
       <div class="inline-grid">
         <img
           class="w-full h-auto object-contain"
-          src="https://www.anka.africa/assets/landing/white_paper/wax_is_new_black_bag-5c29ab7ffb33e386fbf9a453c0fab970a2a7c1e55ccdeed7334bc0257a0f6b58.png"
-          alt="africa, ANKA, afrikrea, shipping, sell, money transfer"
+          src="~/assets/img/paper/paper4.png"
         >
       </div>
 

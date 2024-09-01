@@ -1,5 +1,5 @@
 <script setup lang="ts">
-useHead({ title: "Afrikrea Marketplace" })
+useHead({ title: "ANKA Marketplace" })
 
 const { t } = useI18n()
 const localePath = useLocalePath()
@@ -14,7 +14,7 @@ const localePath = useLocalePath()
 
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-x-14 gap-y-7">
         <img
-          src="https://www.anka.africa/assets/landing/anka-marketplace-girl-7aaa846c6bfa4cf515392c905c57189715b6e0f0df09e9fbe382ac22cbccc28e.svg"
+          src="~/assets/img/marketplace/marketplace.svg"
           class="w-full h-auto object-cover"
         >
 
@@ -34,11 +34,13 @@ const localePath = useLocalePath()
 
           <div class="flex justify-start items-center gap-x-3 mt-3">
             <UButton
-              :to="localePath('/book-a-demo')"
-              :label="t('links.book-a-demo')"
+              to="https://marketplace.anka.africa/fr"
+              external
+              :label="t('marketplace.goto')"
               size="lg"
               variant="outline"
             />
+
             <UButton
               :to="localePath('/subscribe')"
               :label="t('links.subscribe')"
@@ -82,7 +84,7 @@ const localePath = useLocalePath()
         <div class="pt-5 grid grid-cols-1 lg:grid-cols-4 gap-x-12 gap-y-14">
           <div class="flex flex-col items-center lg:gap-y-3">
             <img
-              src="https://www.anka.africa/assets/landing/anka-marketplace-products-b0da8a1fcf54bc10da51bfd41e0a28475fea204abf871b4a56113cc338e57682.svg"
+              src="~/assets/img/marketplace/s9.svg"
               class="max-w-full h-[210px]"
             >
             <p class="font-bold text-[2rem]">
@@ -94,7 +96,7 @@ const localePath = useLocalePath()
           </div>
           <div class="flex flex-col items-center lg:gap-y-3">
             <img
-              src="https://www.anka.africa/assets/landing/anka-marketplace-shops-59b16e3f7713f0566b95c168f8546f30c5929d484fbf77a7d05d19e70bfba440.svg"
+              src="~/assets/img/marketplace/s10.svg"
               class="max-w-full h-[210px]"
             >
             <p class="font-bold text-[2rem]">
@@ -106,7 +108,7 @@ const localePath = useLocalePath()
           </div>
           <div class="flex flex-col items-center lg:gap-y-3">
             <img
-              src="https://www.anka.africa/assets/landing/anka-marketplace-revenue-731d9c111bb24752d457bee0fa3c5ed5437ed11d5a2a2ba72bb4f940bb120aa7.svg"
+              src="~/assets/img/marketplace/s11.svg"
               class="max-w-full h-[210px]"
             >
             <p class="font-bold text-[2rem]">
@@ -118,7 +120,7 @@ const localePath = useLocalePath()
           </div>
           <div class="flex flex-col items-center lg:gap-y-3">
             <img
-              src="https://www.anka.africa/assets/landing/anka-marketplace-countries-2a0354e085f6a72739b7d470c41477f5840d04de853591fb54d13b803662f25b.svg"
+              src="~/assets/img/marketplace/s12.svg"
               class="max-w-full h-[210px]"
             >
             <p class="font-bold text-[2rem]">

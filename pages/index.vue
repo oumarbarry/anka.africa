@@ -37,8 +37,7 @@ const localePath = useLocalePath()
         <img
           width="700"
           height="500s"
-          src="https://www.anka.africa/assets/landing/multitask-aa5f5a6f358d1d7f6d02ab6e3d644b2b802721fd98c373d4c96ec8e989c13ee6.svg"
-          alt="africa, ANKA, afrikrea, shipping, sell, money transfer"
+          src="~/assets/img/home/globe.png"
         >
       </div>
     </section>
@@ -54,12 +53,12 @@ const localePath = useLocalePath()
       <div class="grid grid-cols-1 lg:grid-cols-3 gap-y-10">
         <div class="flex flex-col items-center gap-y-3">
           <img
-            src="https://www.anka.africa/assets/landing/sell_icon-696208e5d1e40b72ee82d812d3409ebe95aea47079b115acd3687a1d1a6755a9.svg"
+            src="~/assets/img/home/marketplace1.png"
             alt="africa, sell, sell globally"
             class="size-[33px]"
           >
           <h5 class="font-bold text-xl">
-            Afrikrea Marketplace
+            ANKA Marketplace
           </h5>
           <p class="text-center">
             {{ t('home.about.services.marketplace.paragraph') }}
@@ -68,7 +67,7 @@ const localePath = useLocalePath()
 
         <div class="flex flex-col items-center gap-y-3">
           <img
-            src="https://www.anka.africa/assets/landing/ship_icon-7a9edd23a212f72351a9b2a4961af84cfcab56ef973bdff62534207e80eb78e4.svg"
+            src="~/assets/img/home/shipping1.png"
             alt="africa, sell, sell globally"
             class="size-[33px]"
           >
@@ -82,7 +81,7 @@ const localePath = useLocalePath()
 
         <div class="flex flex-col items-center gap-y-3">
           <img
-            src="https://www.anka.africa/assets/landing/card-54ac8d73b5340259ae74329f81167f6a23f3d9b2ce6cbda1a73d0aa252419814.svg"
+            src="~/assets/img/home/payment1.png"
             alt="africa, sell, sell globally"
             class="size-[33px]"
           >
@@ -145,7 +144,7 @@ const localePath = useLocalePath()
 
     <!-- ABOUT ANKA Pay -->
     <section class="bg-[#F1F0F0] h-full grid grid-cols-1 lg:grid-cols-2 gap-x-10 gap-y-16 px-10 py-14 lg:p-20">
-      <div class="flex flex-col justify-start space-y-7">
+      <div class="flex flex-col justify-center space-y-7">
         <div class="space-y-4">
           <h1 class="font-bold text-2xl lg:text-4xl">
             ANKA Pay
@@ -172,7 +171,7 @@ const localePath = useLocalePath()
           class="inline-block max-w-full h-auto"
           width="500"
           height="auto"
-          src="https://www.anka.africa/assets/landing/online_entrepreneur-31bf1178363ac04102f5a7e942b504b4cf394c7ddb55cbbc6fd8e8e8e643040c.svg"
+          src="~/assets/img/home/payment2.png"
           alt="entrepreneur, online, africa, ship, shipping globally, dropshipper, dropshipping"
         >
       </div>
@@ -217,18 +216,18 @@ const localePath = useLocalePath()
         <img
           class="inline-block max-w-full h-auto object-cover"
           width="500"
-          src="https://www.anka.africa/assets/landing/exporter-f392cd02ec7e3f51a6c057abb16ecec0ced33ac2a97ddd1b87d27cd11eb41df6.svg"
+          src="~/assets/img/home/shipping2.png"
           alt="entrepreneur, online, africa, ship, shipping globally, dropshipper, dropshipping"
         >
       </div>
     </section>
 
-    <!-- AFRIKREA Marketplace -->
+    <!-- ANKA Marketplace -->
     <section class="bg-[#F1F0F0] h-full grid grid-cols-1 lg:grid-cols-2 gap-x-10 gap-y-16 px-10 py-14 lg:p-20">
-      <div class="flex flex-col justify-start space-y-7">
+      <div class="flex flex-col justify-center space-y-7">
         <div class="space-y-4">
           <h1 class="font-bold text-2xl lg:text-4xl">
-            AFRIKREA Marketplace
+            ANKA Marketplace
           </h1>
           <h2 class="text-primary text-xl lg:text-2xl">
             {{ t('home.about-marketplace.subtitle') }}
@@ -262,7 +261,7 @@ const localePath = useLocalePath()
         <img
           class="inline-block max-w-full h-auto object-cover"
           width="500"
-          src="https://www.anka.africa/assets/landing/dropshipper-f28ee8b4beb3a39c9b014b91ff6636f5fcbca837e4ba2028c725672917fce588.svg"
+          src="~/assets/img/home/marketplace2.png"
           alt="entrepreneur, online, africa, ship, shipping globally, dropshipper, dropshipping"
         >
       </div>
